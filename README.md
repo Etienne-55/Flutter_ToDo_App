@@ -23,7 +23,7 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
 ### 1. Clonar o Repositório
 ```bash
 git clone https://github.com/Etienne-55/Flutter_ToDo_App.git
-cd todo-app
+cd Flutter_ToDo_App
 ```
 
 ### 2. Instalar Dependências
