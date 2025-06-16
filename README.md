@@ -1,57 +1,64 @@
-# Todo App
+# Aplicativo de Tarefas
 
-A Flutter-based todo application for managing your daily tasks.
+Um aplicativo de tarefas baseado em Flutter para gerenciar suas atividades diárias.
 
-## Prerequisites
+## Integrantes do Grupo
 
-Before you begin, ensure you have the following installed:
+- Etienne Pedro Pautet
+- Fabiano Quirino
+- João Pedro Araújo Inácio
+- Renan Chacon
 
-- Flutter (3.0 or higher)
-- Android Studio or VS Code
-- Android SDK (API level 21 or higher)
+## Pré-requisitos
+
+Antes de começar, certifique-se de ter os seguintes itens instalados:
+
+- Flutter (3.0 ou superior)
+- Android Studio ou VS Code
+- Android SDK (API level 21 ou superior)
 - Git
 
-## Installation & Setup
+## Instalação e Configuração
 
-### 1. Clone the Repository
+### 1. Clonar o Repositório
 ```bash
 git clone https://github.com/Etienne-55/Flutter_ToDo_App.git
 cd todo-app
 ```
 
-### 2. Install Dependencies
+### 2. Instalar Dependências
 ```bash
 flutter pub get
 ```
 
-### 3. Configure Android
-Ensure you have an Android device connected or an emulator running:
+### 3. Configurar Android
+Certifique-se de ter um dispositivo Android conectado ou um emulador rodando:
 ```bash
 flutter devices
 ```
 
-### 4. Run the App
+### 4. Executar o App
 ```bash
 flutter run
 ```
 
-## Project Structure
+## Estrutura do Projeto
 
 ```
 lib/
-├── main.dart              # App entry point
-├── models/               # Data models (Todo, User)
-├── screens/              # UI screens (Login, Home, etc.)
-├── widgets/              # Reusable UI components
-├── services/             # API/Database services
-└── utils/                # Helper functions and constants
+├── main.dart              # Ponto de entrada do app
+├── models/               # Modelos de dados (Todo, User)
+├── screens/              # Telas da UI (Login, Home, etc.)
+├── widgets/              # Componentes de UI reutilizáveis
+├── services/             # Serviços de API/Banco de dados
+└── utils/                # Funções auxiliares e constantes
 ```
 
-## Build APK
+## Gerar APK
 
-To build a release APK:
+Para gerar um APK de release:
 ```bash
 flutter build apk --release
 ```
 
-The APK will be located at: `build/app/outputs/flutter-apk/app-release.apk`
+O APK estará localizado em: `build/app/outputs/flutter-apk/app-release.apk`
